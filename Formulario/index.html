@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>¡Registrate y unete a la comunidad!</h1>
+
+    <form action="#" method="POST">
+      <label for="nombre">Nombre: </label>
+      <input type="text" id="nombre" name="nombre" /><br /><br />
+
+      <label for="apellido">Apellido: </label>
+      <input type="text" id="apellido" name="apellido" /><br /><br />
+
+      <label for="email">Email: </label>
+      <input type="email" id="email" name="email" /><br /><br />
+
+      <label for="edad"> Edad: </label>
+      <input type="number" id="edad" name="edad" /><br /><br />
+
+      <label for="clave">Contraseña: </label>
+      <input type="password" id="clave" name="clave" /><br /><br />
+
+      <label for="confirmar">Confirmar contraseña: </label>
+      <input type="password" id="confirmar" name="confirmar" /><br /><br />
+
+      <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+      <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"/>
+      <br><br>
+
+      <label>Genero:</label>
+      <input type="radio" id="masculino" name="genero" value="masculino" />
+      <label for="masculino">Masculino</label>
+
+      <input type="radio" id="femenino" name="genero" value="femenino" />
+      <label for="no-decir">Femenino</label>
+
+      <input type="radio" id="no-decir" name="genero" value="no-decir" />
+      <label for="no-decir">Prefiero no decir </label>
+      <br><br>
+
+      <input type="checkbox" id="sub" name="sub" />
+      <label for="sub">subscribete a nuestro boletin!</label><br /><br />
+
+      <label for="comentario">Escribe una breve descripcion de ti mismo </label>
+      <br>
+      <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea>
+      <br><br>
+      <label for="interes">Selecciona tus intereses </label>
+      <select id="interes" name="interes">
+        <option value="musica">Musica</option>
+        <option value="deportes">Deportes</option>
+        <option value="viajes">Viajar</option>
+        <option value="tech">Tecnologia</option>
+      </select>
+      <br><br>
+
+      <input type="submit" value="Registrate" />
+    </form>
+  </body>
+</html>
